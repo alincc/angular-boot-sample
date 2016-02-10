@@ -1,0 +1,9 @@
+<div>
+    <h1>Welcome to Angular 2</h1>
+
+    <label>Type your name:</label>
+    <input type="text" [(ngModel)]="yourName">
+
+    <div [hidden]="!yourName">Hello <b>{{yourName}}</b>! Angular2 is working!</div>
+
+</div>

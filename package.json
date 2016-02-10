@@ -1,0 +1,16 @@
+{
+  "name": "fangular-sample",
+  "version": "1.0.0",
+  "description": "Angular 2.x with TypeScript at minimum",
+  "main": "lite-server",
+  "scripts": {
+    "start": "lite-server",
+	"postinstall": "npm install lite-server -g",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alin Capitanescu",
+  "license": "MIT",
+  "dependencies": {
+    "fangular": "0.0.3"
+  }
+}

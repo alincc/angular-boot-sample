@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="/node_modules/fangular/dist/fangular.js"></script>
+
+    <script>
+        System.config({
+            transpiler: 'typescript', 
+            typescriptOptions: { emitDecoratorMetadata: true }, 
+            packages: {'app': {defaultExtension: 'ts'}} 
+        });
+        System.import('app/bootstrap')
+            .then(null, console.error.bind(console));
+    </script>
+</head>
+
+<body>
+    <hello>Loading...</hello>
+
+
+
+</body>
+
+</html>
