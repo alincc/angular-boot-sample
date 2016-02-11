@@ -7,22 +7,20 @@
 
     <script src="/node_modules/fangular/dist/fangular.js"></script>
 
-    <script>
-        System.config({
-            transpiler: 'typescript', 
-            typescriptOptions: { emitDecoratorMetadata: true }, 
-            packages: {'app': {defaultExtension: 'ts'}} 
-        });
-        System.import('app/bootstrap')
-            .then(null, console.error.bind(console));
-    </script>
 </head>
 
 <body>
     <hello>Loading...</hello>
 
-
-
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true },
+            packages: {'app': {defaultExtension: 'ts'}}
+        });
+        System.import('app/bootstrap')
+                .then(null, console.error.bind(console));
+    </script>
 </body>
 
 </html>
