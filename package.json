@@ -9,7 +9,7 @@
   "author": "Alin Capitanescu",
   "license": "MIT",
   "dependencies": {
-    "fangular": "0.0.7"
+    "fangular": "0.0.8"
   },
   "devDependencies": {
     "lite-server": "^2.0.1"

@@ -3,7 +3,12 @@
 
     <label>Type your name:</label>
     <input type="text" [(ngModel)]="yourName">
-
     <div [hidden]="!yourName">Hello <b>{{yourName}}</b>! Angular2 is working!</div>
 
+    <hr/>
+
+    <div *ngIf="foods">
+        <div>Content loaded from json:</div>
+        {{foods | json}}
+    </div>
 </div>
