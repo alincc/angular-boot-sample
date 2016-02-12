@@ -1,7 +1,7 @@
 {
-  "name": "fangular-sample",
+  "name": "angular2-boot-sample",
   "version": "1.0.0",
-  "description": "Sample project using packed version of angular",
+  "description": "Sample project using angular2-boot",
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "Alin Capitanescu",
   "license": "MIT",
   "dependencies": {
-    "fangular": "0.0.8"
+    "angular2-boot": "0.0.8"
   },
   "devDependencies": {
     "lite-server": "^2.0.1"
