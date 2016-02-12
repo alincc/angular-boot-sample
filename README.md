@@ -7,4 +7,5 @@ This is a sample project using angular2-boot.
 4. start developing your app
 
 ### Demo
-(http://plnkr.co/edit/N7vJo0agNZYSYBpQTb0y)
+
+http://plnkr.co/edit/N7vJo0agNZYSYBpQTb0y
